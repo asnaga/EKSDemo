@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-		git branch: 'main', url: 'https://github.com/your-repo/EKSDemo.git'
+		git branch: 'main', url: 'https://github.com/asnaga/EKSDemo.git'
 		}
 	}
 
